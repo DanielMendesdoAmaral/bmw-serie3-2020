@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.white {
+    color: #FFFFFF;
+}
+
+.titulo-grande {
+    font-weight: 200;
+    font-size: 96px;
+}
+
+.subtitulo-uppercase {
+    font-weight: 100;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.overflow-hidden {
+    width: 285px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.imagens {
+    display: flex; 
+    position: fixed;
+    top: 0;
+}
+
+.imagens .image-1 {
+    background: url(../images/1-\ Atração\ redefinida.jpg) 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 500px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.imagens .image-2 {
+    background: url(../images/2-\ Reconhece\ sua\ voz\ e\ ouve\ seus\ desejos.jpg) 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 500px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.imagens .image-3 {
+    background: url(../images/3-\ Para\ todas\ as\ curvas\ à\ sua\ frente.png) 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 500px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.imagens .image-4 {
+    background: url(../images/4-\ Mais\ rápido\ e\ mais\ intuitivo.jpg) 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 500px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.imagens .image-5 {
+    background: url(../images/5-\ Os\ melhores\ assistentes\ atuam\ nos\ bastidores.jpg) 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 500px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.imagens .image-6 {
+    background: url(../images/6-\ Inquestionavelmente\ único.jpg) 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 285px;
+    height: 500px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.imagens div {
+    margin-left: 10px;
+}
+
+.imagens div.no-margin-left {
+    margin-left: 0;
+}
+
+.imagens div.no-margin-right {
+    margin-right: 0;
+}
+
+.imagens .image-1:hover, .image-2:hover, .image-3:hover, .image-4:hover, .image-5:hover, .image-6:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.texts {
+    position: absolute;
+    z-index: 999999;
+}
+
+.t-1 {
+    left: 20px;
+    top: 220px;
+}
+
+.t-2 {
+    left: 320px;
+    top: 220px;
+}
+
+.t-3 {
+    left: 620px;
+    top: 220px;
+}
+
+.t-4 {
+    left: 920px;
+    top: 220px;
+}
+
+.t-5 {
+    left: 1220px;
+    top: 220px;
+}
+
+.t-6 {
+    left: 1520px;
+    top: 220px;
+}
+
