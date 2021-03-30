@@ -1,1 +1,1 @@
-# bmw-serie3-2020
+Clone da página de detalhes da BMW 320i 2020 do site da BMW, a fins de estudar HTML/CSS (não responsivo).
